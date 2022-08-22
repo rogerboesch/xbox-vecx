@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>10017197-61db-4a7b-b042-1a0c168fbef9</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>2635bc38-ba0f-4eb1-8c41-018e2196223d</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>837e0127-1f01-4728-b944-cf4c3a607a97</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Emulator">
+      <UniqueIdentifier>{467f6979-ffed-409e-b93a-26c7fa827041}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="vec3x_emulator.cpp">
+      <Filter>Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3x_emulator_6809.cpp">
+      <Filter>Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3x_emulator_8910.cpp">
+      <Filter>Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="vec3x_emulator.hpp">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3x_emulator_6809.hpp">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3x_emulator_8910.hpp">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3x_emulator_types.hpp">
+      <Filter>Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl" />
+    <FxCompile Include="VertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="romfast.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="armor_attack.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="bedlam.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="berzerk.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="blitz.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="clean_sweep.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="cosmic_chasm.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="fortress_of_narzord.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="headsup.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="hyperchase.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="mine_storm.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="polar_rescue.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="pole_position.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="rip-off.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="scramble.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="solar_quest.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="space_wars.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="spike.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="spinball.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="star_castle.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="star_trek.bin">
+      <Filter>Emulator</Filter>
+    </None>
+    <None Include="starhawk.bin">
+      <Filter>Emulator</Filter>
+    </None>
+  </ItemGroup>
+</Project>
